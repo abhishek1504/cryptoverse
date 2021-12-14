@@ -17,7 +17,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['react', 'sonarjs'],
   rules: {
     'react/jsx-filename-extension': [0],
     'object-curly-newline': [0],
@@ -28,6 +28,6 @@ module.exports = {
     'react/no-string-refs': [0],
     'react/no-array-index-key': [0],
     'react/jsx-curly-newline': [0],
-    'linebreak-style': [0]
+    'linebreak-style': [0],
   },
 };
