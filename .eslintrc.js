@@ -28,5 +28,6 @@ module.exports = {
     'react/no-string-refs': [0],
     'react/no-array-index-key': [0],
     'react/jsx-curly-newline': [0],
+    'linebreak-style': [0]
   },
 };
